@@ -25,8 +25,8 @@ async def initialize_agent_session_state(agent_name: str):
 async def selected_model() -> str:
     """Display a model selector in the sidebar."""
     model_options = {
-        "gpt-4o": "gpt-4o",
-        "o3-mini": "o3-mini",
+        "DeepSeek-V3": "deepseek-chat",
+        "DeepSeek-R1": "deepseek-reasoner",
     }
     selected_model = st.sidebar.selectbox(
         "Choose a model",

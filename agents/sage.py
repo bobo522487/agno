@@ -2,7 +2,6 @@ from textwrap import dedent
 from typing import Optional
 
 from agno.agent import Agent, AgentKnowledge
-# from agno.models.openai import OpenAIChat
 from agno.models.deepseek import DeepSeek
 from agno.storage.agent.postgres import PostgresAgentStorage
 from agno.tools.duckduckgo import DuckDuckGoTools
